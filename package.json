@@ -9,16 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@polkadot/api": "^14.0.1",
+    "@polkadot/extension-dapp": "^0.53.1",
+    "@polkadot/extension-inject": "^0.53.1",
+    "@polkadot/util-crypto": "^13.1.1",
+    "@unique-nft/sdk": "^0.7.7",
+    "framer-motion": "^11.9.0",
+    "lucide-react": "^0.447.0",
+    "next": "14.2.14",
+    "next-themes": "^0.3.0",
+    "papaparse": "^5.4.1",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.14"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
+    "@types/papaparse": "^5.3.14",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
